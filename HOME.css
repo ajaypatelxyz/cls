@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    width: 1448px;
+    height: 72px;
+    background-color: #002349;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.tag{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

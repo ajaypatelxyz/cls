@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    font-family: serif;
+    padding: 0;
+}
+
+.head{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    height: 80px;
+    color: #edf2f4;
+    background-color: #212529;
+    font-size: xx-large;
+    font-family: serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/*box-1*/
+
+.heading-1{
+    height: 560px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-1{
+    height: 100px;
+    width: 600px;
+    margin-top: 110px;
+    font-weight: 400;
+    font-size: 32px;
+    align-items: normal;
+}
+
+.title-2{
+    height: 150px;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 160px;
+    font-weight: lighter;
+    font-size: 19px;
+    align-items: normal;
+    line-height: 30px;
+    color: #999999;
+}
+
+.head-tag{
+    background-image: url(https://img-v2.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fapi.sothebysrealty.com%2Fresources%2Fsiteresources%2Fmy%20folder%2Fhugeimages%2FInspire.png&option=N&permitphotoenlargement=false&w=640);
+    height: 350px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    width: 500px;
+    background-size: cover;
+    margin-top: 110px;
+}
+
+/*box-2*/
+
+.heading-2{
+    height: 1000px;
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    display: flex;
+}
+
+.heading-pic{
+    height: 420px;
+    width: 620px;
+    background-image: url(https://img-v2.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fapi.sothebysrealty.com%2Fresources%2Fsiteresources%2Fmy%20folder%2Fhugeimages%2FOurStory.png&option=N&permitphotoenlargement=false&w=1024);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    background-size: cover;
+    margin-left: 190px;
+}
+
+.heading-pop{
+    border-top: 2px solid orange;
+    margin-left: 150px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 62px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.heading-para{
+    width: 520px;
+    margin-left: 290px;
+    margin-top: 50px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.para-1{
+    font-size: 32px;
+}
+
+.para-2{
+    color: black;
+    font-size: 22px;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+/*box-3*/
+
+.heading-3{
+    height: 1270px;
+    background-color: #343a40;
+    padding-top: 83px;
+}
+
+.box{
+    height: 393px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-1{
+    height: 343px;
+    width: 573px;
+    background-image: url(https://img-v2.gtsstatic.net/reno/imagereader.aspx?imageurl=http%3A%2F%2Fm.sothebysrealty.com%2F4i0%2Fw4z16xrbwerbmseatha9ktw055i&option=N&h=375&permitphotoenlargement=false);
+    background-size: cover;
+}
+
+.box-2{
+    height: 393px;
+    width: 382px;
+
+}
+
+h2{
+    font-size: 42px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+p{
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #999999;
+}
+
+button{
+    border-radius: 0%;
+    border: 1px solid white;
+    height: 59px;
+    width: 228px;
+    margin-top: 30px;
+    background-color: #343a40;
+    color: #999999;
+}
+
+.butt-link{
+    font-size: 18px;
+    margin-top: 4px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.box-image{
+    height: 850px;
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin-top: 20px;
+    height: 40px;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box-p{
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box-a{
+    color: black;
+    height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*footer*/
+
+.foot-panel{
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-color: #212529;
+}
+
+.logo-name{
+    height: 60px;
+    color: #edf2f4;
+    font-size: xx-large;
+    font-family: serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foot-panel2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-line{
+    font-size: 28px;
+    color: #edf2f4;
+}
+
+a{
+    display: block;
+    font-size: larger;
+    margin-top: 10px;
+    color: #edf2f4;
+    text-decoration: none;
+}
+

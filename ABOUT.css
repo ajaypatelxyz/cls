@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+
+.head{
+    display: flex;
+}
+
+.box1{
+    height: 740px;
+    width: 50%;
+    /* background-color: #778da9; */
+    background-color: #2a6f97;
+    /* background-color: #89c2d9; */
+}
+
+.link{
+    height: 60px;
+    width: 300px;
+    background-color: #9999a1;
+    margin-top: 50px;
+    margin-left: 190px;
+    border-radius: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.link1{
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.para{
+    margin-top: 70px;
+    margin-left: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.p1{
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.p2{
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.p3{
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.box2{
+    height: 740px;
+    width: 50%;
+    /* background-color: #e0e1dd; */
+    background-color: #89c2d9;
+    /* background-color: #2a6f97; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .cont{
+    height: 50%;
+    width: 90%;
+    margin: 33px;
+    background-color: #9999a1;
+    display: flex;
+    align-content: center;
+    padding: 20px;
+} */
+
+.cont-1{
+    height: 300px;
+    width: 280px;
+    background-image: url(original.avif);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cont-2{
+    height: 300px;
+    width: 280px;
+    background-image: url(pexels-frans-van-heerden-201846-1438832.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+/* .cont2{
+    height: 50%;
+    width: 90%;
+    margin: 33px;
+    background-color: #9999a1;
+    display: flex;
+    align-content: center;
+} */
+
+.cont-3{
+    height: 300px;
+    width: 280px;
+    background-image: url(pexels-expect-best-79873-323780.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cont-4{
+    height: 300px;
+    width: 280px;
+    background-image: url(pexels-pixabay-259588.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.foot-panel{
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-color: #212529;
+}
+
+.logo-name{
+    height: 80px;
+    color: #edf2f4;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foot-panel2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-line{
+    font-size: 28px;
+    color: #edf2f4;
+}
+
+a{
+    display: block;
+    font-size: larger;
+    margin-top: 10px;
+    color: #edf2f4;
+    text-decoration: none;
+}
